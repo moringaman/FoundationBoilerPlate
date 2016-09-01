@@ -20,3 +20,8 @@
 2. install [Meteor](https://www.meteor.com) with command: **curl https://install.meteor.com/ | sh**
 3. Run Meteor from app root directory with command: **meteor**
 4. browse to **http://localhost:3000** to view template site
+
+#Happy Coding! 
+from _Irobotnik_
+
+Contact: <admin@mrmailbox.co.uk>
