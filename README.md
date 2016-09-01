@@ -5,6 +5,11 @@
 #### Elements Included
 
 * Off Canvas Menu
+* Top menu bar
 * Fully Responsive
 * Parallax elements
 * Hero Image
+* Font Awesome Icons
+* Iron Routing
+
+### Meant as a starting point for meteor apps using foundation
