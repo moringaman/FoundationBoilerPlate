@@ -1,0 +1,32 @@
+<body>{{ renderPage }}</body>
+
+<Template name="layout">
+<div class="off-canvas-wrapper">
+ <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+     <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+     {{ > offcanvasmenu}}
+     </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+        
+<div class="title-bar show-for-small-only">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
+    <span class="title-bar-title">MENU</span>
+  </div>
+</div>
+        
+     {{ > desktopNav }}
+     {{ > hero1}}
+     {{ > intro}}
+     {{ > parallax1 }}
+     {{ > infocards }}
+     {{ > parallax1 }}
+     {{ > content }}
+      
+     {{ > footer }}
+     
+     </div>
+    </div>
+  </div>
+    
+</Template>

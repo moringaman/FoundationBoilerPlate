@@ -1,0 +1,377 @@
+/* CSS declarations go here */
+ @import 'custom-foundation-settings.scss';
+
+@import '{}/node_modules/foundation-sites/scss/foundation.scss';
+
+@include foundation-everything;
+
+/* ==============================
+    General
+================================== */
+
+*:focus {
+	outline: none;
+}
+
+.wrap {
+	
+	width: 90%;
+	max-width: 1100px;
+	margin: 5px auto;
+	
+}
+
+ul {
+	list-style: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* -----------------------------------------
+     Nav Desktop
+   ----------------------------------------- */
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #222;
+
+}
+   
+   .nav-desktop {
+  
+   	background-color: #222;
+   	height: 50px;
+   	padding: 0px;
+   }
+   
+   .site-logo {
+   	 color: #fff;
+   	 line-height: 40px;
+     margin-left: 19px;
+   }
+   
+   
+  .nav-desktop .menu-desktop {
+  	background-color: transparent;
+  }
+  
+  .menu-desktop li  a {
+  	
+	display: inline-block;
+	line-height: 45px;
+	color: rgba(255,255,255, 0.8);
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+  }
+  
+  .menu-desktop li a:hover {
+  	color: rgba(255,255,255, 0.5);
+  	background-color:rgba(255,255,255, 0.1);
+  }
+  
+  /* ----------------------------------
+     MOBILE NAV
+  ------------------------------------- */
+  
+  .title-bar {
+  	height: 50px;
+  	padding-top: 15px;
+  }
+  
+  .menu-mobile {
+  	padding: 40px 0px;
+  	margin-left: 0px;
+  	font-weight: 200;
+    
+  }
+  
+  .menu-mobile ul {
+  	list-style: none;
+   margin-top: 60px;
+   text-align: center;
+  }
+  
+  .menu-mobile li a {
+  	display: block;
+  	line-height: 20px;
+	color: rgba(255,255,255, 0.8);
+	padding-top: 10px;
+    padding-bottom: 10px;
+	margin-top: 10px;
+    text-align: center;
+    border-left: solid 3px transparent;
+  }
+  
+  .menu-mobile li a:hover {
+  	color: rgba(255,255,255, 0.5);
+  	background-color:rgba(255,255,255, 0.1);
+    border-left: solid 3px #fff;
+  }
+
+.off-canvas-position-left {
+ width: 200px;
+}
+  
+  .off-canvas-wrapper, .off-canvas {
+  	background-color: #222; 
+  	margin: 0px 0px;
+  }
+  
+  .off-canvas-position-left ul {
+  	list-style: none;
+      	
+  }
+  
+  
+
+/* -----------------------------------------
+   banner section
+-------------------------------------------- */
+
+
+.hero {
+		background: #fff;
+		background-image:url("/img/footer_lodyas.png");
+        background-attachment:fixed;
+        height: 450px;
+		max-height: 500px;
+		padding: 100px 50px;
+        margin-bottom: 100px;
+		color:#ccc;	
+}
+
+.hero p {
+	font-size: 24px;
+	line-height: 30px;
+	min-width: 100px;
+	max-width: 600px;
+}
+
+
+.main {
+	padding: 60px 30px;	
+}
+
+
+.button {
+	border-radius: 5px;
+}
+
+
+.column {
+	margin-top: 30px;
+}
+
+
+/* ------------------------------------
+   info cards
+--------------------------------------- */
+
+.box {
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 25px;
+  display: block;
+  margin-top: 60px;
+}
+
+.box-icon {
+  background-color: #569;
+  border-radius: 50%;
+  display: table;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: -61px;
+  font-size: 3rem;
+  span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.info {
+  h4 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  p {
+    color: #717171;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  a {
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.5s ease 0s;
+  	&:hover {
+    	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    	transition: all 0.5s ease 0s;
+    }
+  }
+}
+
+
+/* ------------------------------------
+   parallax section
+--------------------------------------- */
+
+
+.parallax {
+    
+    height: 400px;
+    color: #fff;
+    background-image:url("/img/footer_lodyas.png");
+    background-attachment:fixed;
+    Padding: 40px 10px;
+    
+    
+    
+}
+
+/* ------------------------------------
+   main content
+--------------------------------------- */
+
+.parallax-background {
+	background-color: #0078A0;
+	height: 400px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+    z-index: 0;
+}
+
+.intro-text {
+	font-size: 50px;
+	color: #000;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.parallax-content {
+	max-width: 100%;
+	position: relative;
+	top: 100px;
+	padding: 50px;
+	font-size: 20px;
+	background-color: #fff;
+}
+
+
+/* ------------------------------------
+    images
+--------------------------------------*/
+
+.round_pic {
+    background-image: url('/img/microphone.jpg');
+    background-position: center;
+    background-size: 400px 300px;
+    height: 250px;
+    width: 250px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.fa {
+   margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+ /* ------------------------------------
+  footer styles
+ --------------------------------------- */
+
+
+footer	{
+	background-color: rgba(0,0,0, 0.6);
+    background-image:url("/img/footer_lodyas.png");
+    background-attachment:fixed;
+	color: #999;
+	padding: 50px 0px 0px 0px;
+	color:rgba(255,255,255, 0.5);
+	margin-bottom: 0px;
+    
+             hr {
+            border-color: rgba(255,255,255, 0.2);
+            margin-top: 0px;
+        }
+    
+    
+             a {
+        display: block;
+        color:rgba(255,255,255, 0.8);
+        text-align: left;
+        line-height: 30px;
+                 
+                 &:hover  {
+	           color:rgba(255,255,255, 0.5);
+               
+                    }
+                }
+
+       p {
+        margin-bottom: 2px;
+        font-size: 1em;
+           
+           
+   }    
+}
+
+
+
+
+
+footer-menus {
+	padding-bottom: 40px;
+}
+
+footer ul {
+    list-style: disc;
+    line-height: 30px;
+}
+
+/* -----------------------------------------------
+	Copyright section
+--------------------------------------------------- */
+
+.copyright {
+    margin: 60px 0px 0px 0px;
+	height: 40px;
+	text-align: center;
+	background-color: #000;
+	font-size: 14px;
+	line-height: 14px;
+    padding-top: 5px;
+}
+
+
+/* ---------------------------------------------------
+  Media Queries
+  ____________________________________________________ */
+  
+  @media (max-width: 640px) {
+  	
+  	.nav-desktop {
+  		display: none;
+  	}
+  	
+  }
+
+
