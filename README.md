@@ -21,7 +21,7 @@
 3. Run Meteor from app root directory with command: **meteor**
 4. browse to **http://localhost:3000** to view template site
 
-#####Happy Coding! 
+####Happy Coding! 
 from **_Irobotnik_**
 
-Contact: <admin@mrmailbox.co.uk>
+**contact:** <admin@mrmailbox.co.uk>
