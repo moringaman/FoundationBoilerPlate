@@ -13,3 +13,9 @@
 * Iron Routing
 
 ### Meant as a starting point for meteor apps using foundation
+
+## Usage Instructions
+
+1. Download or clone repo
+2. install [Meteor](www.meteor.com) with command: **curl https://install.meteor.com/ | sh**
+3. Run Meteor from app root directory
