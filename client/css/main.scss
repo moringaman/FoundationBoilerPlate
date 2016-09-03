@@ -261,7 +261,7 @@ ul {
 	font-size: 50px;
 	color: #000;
 	text-align: center;
-	margin-top: 15%;
+/*	margin-top: 15%; */
 }
 
 .parallax-content {
@@ -312,6 +312,13 @@ footer	{
             border-color: rgba(255,255,255, 0.2);
             margin-top: 0px;
         }
+      
+    
+            ul {
+            list-style: disc;
+            line-height: 30px;
+        }
+    
     
     
              a {
@@ -342,10 +349,6 @@ footer-menus {
 	padding-bottom: 40px;
 }
 
-footer ul {
-    list-style: disc;
-    line-height: 30px;
-}
 
 /* -----------------------------------------------
 	Copyright section
