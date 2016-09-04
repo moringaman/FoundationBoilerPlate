@@ -7,6 +7,7 @@
 * Off Canvas Menu
 * Top menu bar
 * Fully Responsive
+* Video Background
 * Parallax elements
 * Hero Image
 * Font Awesome Icons
