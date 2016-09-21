@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Foundation6 BoilerPlate
+
+# Foundation 6 BoilerPlate
 
 ### This Boilerplate uses the Meteor Foundation for sites package Foundation-sites 6.2.3
 
@@ -27,6 +27,4 @@
 from **_Irobotnik_**  :mushroom:
 
 **contact:** <admin@mrmailbox.co.uk>
-=======
-# foundation6_template_base
->>>>>>> 5a94a44a8b3725de5368392920123bee7e4146a4
+
