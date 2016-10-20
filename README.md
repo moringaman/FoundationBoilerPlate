@@ -5,6 +5,7 @@
 
 #### Elements Included
 
+* Javascript framework - Meteorjs version 1.4
 * Off Canvas Menu
 * Top menu bar
 * Fully Responsive
@@ -24,7 +25,7 @@
 4. browse to **http://localhost:3000** to view template site
 
 ####Happy Coding! 
-from **_Irobotnik_**  :mushroom:
+from **moringaman**  :mushroom:
 
 **contact:** <admin@mrmailbox.co.uk>
 
