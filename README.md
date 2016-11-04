@@ -6,6 +6,7 @@
 #### Elements Included
 
 * Javascript framework - Meteorjs version 1.4
+* Foundation 6 css framework
 * Off Canvas Menu
 * Top menu bar
 * Fully Responsive
@@ -17,14 +18,17 @@
 
 ### For use as a starting point for Meteorjs apps using foundation 6 css framework
 
+###Tested on OSX & Arch Linux
+
 ## Usage Instructions
 
 1. Download or clone repo
 2. install [Meteor](https://www.meteor.com) with command: ``curl https://install.meteor.com/ | sh** ``
-3. Run Meteor from app root directory with command: ``meteor``
-4. browse to **http://localhost:3000** to view template site
+3. Rebuild the npm packages with: ``meteor npm install``
+4. Run Meteor from app root directory with command: ``meteor``
+5. browse to **http://localhost:3000** to view boilerplate
 
-####Happy Coding! 
+####Happy Coding!! 
 from **moringaman**  :mushroom:
 
 **contact:** <admin@mrmailbox.co.uk>
